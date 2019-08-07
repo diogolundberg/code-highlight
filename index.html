@@ -9,6 +9,18 @@
     <title>Syntax highlight</title>
   </head>
   <body>
+    <section class="w-80 center">
+      <h2>Css</h2>
+      <pre><code class="language-css">p { color: red }</code></pre>
+    </section>
+    <section class="w-80 center">
+      <h2>Python</h2>
+      <pre><code class="language-python">def solution(A):
+    result = 0
+    for i in range(0, len(A)):
+        result = result ^ A[i] ^ (i + 1)
+    return result ^ (len(A) + 1)</code></pre>
+    </section>
     <script src="prism.js"></script>
     <script src="index.js"></script>
   </body>

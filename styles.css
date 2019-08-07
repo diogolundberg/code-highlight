@@ -3,9 +3,17 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f4f4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.w-80 {
+  width: 80%;
 }
